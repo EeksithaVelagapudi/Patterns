@@ -1,0 +1,105 @@
+<html>
+    <head>
+        <title>Registration Form</title>
+    </head>
+
+    <body>
+    
+        <form action="./day.txt">
+
+
+    <fieldset>
+        <legend>Register for 10K Coders</legend>
+        
+            <pre>
+            <h2> Iam going to join in 10k Coders &#128682; and wanna learn subject and gonna become developer &#128187; </h2>
+    
+            <div style="background-color: aqua;">
+            <label for="Name">Name:--</label>
+            <input type="text" id="Name" placeholder="Full Name" style="width: 200px;" required pattern="[a-eA-F]{4,}">
+            </div>
+
+            <div style="background-color: burlywood;">
+            <label for="pswd">Password:--</label>
+            <input type="password" id="pswd" placeholder="Password" style="width: 200px;" required pattern="[a-cA-C0-3@!#$%&*]{5,}">
+            </div>
+
+            <div style="background-color: bisque;">
+            <label for="Email">Email:--</label>
+            <input type="email" id="Email" placeholder="Email" style="width: 200px;" required pattern="[a-z0-9._]+@[a-z]+\.[a-z]{3,}">
+            </div>
+
+            <div style="background-color: cadetblue;">
+            <label for="education">Education:--</label>
+            <select name="Education" id="education" style="width: 200px;" required>
+            <option value="">Choose from below</option>
+            <option value="BTech">BTech</option>
+            <option value="Bsc">Bsc</option>
+            <option value="BCom">BCom</option>
+            <option value="MCA">MCA</option>
+            <option value="MBA">MBA</option>
+            </select>
+            </div>
+
+            <div style="background-color: cornsilk;">
+            <label for="year">Year of Passed Out:--</label>
+            <select name="Year of Passed Out" id="year" style="width: 200px;" required>
+            <option value="">Choose from below</option>
+            <option value="2024">2024</option>
+            <option value="2023">2023</option>
+            <option value="2022">2022</option>
+            <option value="2021">2021</option>
+            <option value="2020">2020</option>
+            </select>
+            </div>
+
+            <div style="background-color: darkseagreen;">
+            <label for="location">Location:--</label>
+            <input type="text" list="location" style="width: 200px;">
+            <datalist name="Location" id="location">
+            <option value="Hyderabad">Hyderabad</option>
+            <option value="Banglore">Banglore</option>
+            <option value="Pune">Pune</option>
+            <option value="Delhi">Delhi</option></datalist>
+            </div>
+            <div style="background-color: ivory;">
+            <label for="course">Choose your Course:--</label>
+            <select name="Course" id="course" style="width: 200px;" required>
+            <option value="">Choose from below</option>
+            <option value="Frontend Developer">Frontend Developer</option>
+            <option value="Full Stack Developer">Full Stack developer</option>
+            <option value="AWS">AWS</option>
+            <option value="Python Developer">Python Developer</option>
+            <option value="DevOps">DevOps</option></select>
+            </div>
+
+            <input type="file" id="File" style="width: 200px;" multiple>
+        
+            <div style="background-color: aqua;">
+            Male  :<input type="radio" name="gender" id="male">
+            Female:<input type="radio" name="gender" id="female">
+            Others:<input type="radio" name="gender" id="others">
+            </div>
+
+            <div style="background-color: cadetblue;">
+            <label for="location"></label>
+            <textarea name="location" id="location" rows="8" colums="5" readonly>
+             V.Eeksitha
+             A.K.Gudem
+             Raghavapuram
+             WestGodavari
+             AndhraPradesh
+            </textarea>
+            </div>
+            
+            
+            <input type="checkbox" id="check">I agree to <a href=""> terms </a> and <a href=""> conditions </a>
+            
+            <button type="submit">Submit</button>
+        </pre>
+        </center>
+
+    </fieldset>
+</form>
+    </body>
+</html>
